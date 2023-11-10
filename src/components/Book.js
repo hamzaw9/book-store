@@ -1,20 +1,11 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
-const Book = ({ title, author, category }) => (
+const Book = ({ title, author, children }) => (
   <div>
-    <p>
-      Title:
-      {title}
-    </p>
-    <p>
-      Author:
-      {author}
-    </p>
-    <p>
-      Category:
-      {category}
-    </p>
+    <p>{title}</p>
+    <p>{author}</p>
+    {children}
   </div>
 );
 

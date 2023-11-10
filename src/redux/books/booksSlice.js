@@ -1,7 +1,7 @@
 /* eslint-disable implicit-arrow-linebreak */
 import { createSlice } from '@reduxjs/toolkit';
 
-const initialState = [
+export const initialState = [
   {
     item_id: 'item1',
     title: 'The Great Gatsby',
