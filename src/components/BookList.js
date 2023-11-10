@@ -14,16 +14,16 @@ const BookList = () => {
   return (
     <div>
       {books.map((book) => (
-        <div key={book.item_id}>
-          <Book
-            title={book.title}
-            author={book.author}
-            category={book.category}
-          />
+        <Book
+          key={book.item_id}
+          title={book.title}
+          author={book.author}
+          category={book.category}
+        >
           <button type="button" onClick={() => handleRemoveBook(book.item_id)}>
             Remove Book
           </button>
-        </div>
+        </Book>
       ))}
     </div>
   );
