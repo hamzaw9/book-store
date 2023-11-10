@@ -2,9 +2,12 @@ import BookList from '../components/BookList';
 import AddBook from '../components/AddBook';
 
 const Home = () => (
-  <>
-    <BookList />
-    <AddBook />
-  </>
+  <div className="home">
+    <div className="container">
+      <BookList />
+      <AddBook />
+    </div>
+  </div>
 );
+
 export default Home;
