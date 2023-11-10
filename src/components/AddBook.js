@@ -7,7 +7,6 @@ const AddBook = () => {
 
   const handleAddBook = (e) => {
     e.preventDefault();
-
     const title = e.target.elements.title.value;
     const author = e.target.elements.author.value;
 
@@ -31,7 +30,10 @@ const AddBook = () => {
           placeholder="Author"
           required
         />
-        <input className="input-submit" type="submit" value="ADD BOOK" />
+
+        <button type="submit" className="input-submit">
+          Add Book
+        </button>
       </form>
     </div>
   );
