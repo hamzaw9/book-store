@@ -1,4 +1,4 @@
-// src/redux/books/booksSlice.js
+// Change 1
 import { createSlice } from '@reduxjs/toolkit';
 
 const booksSlice = createSlice({
@@ -6,10 +6,17 @@ const booksSlice = createSlice({
   initialState: { list: [] },
   reducers: {
     addBook: (state, action) => {
-      state.list.push(action.payload);
+      state.list = [
+        ...state.list,
+        {
+          id: Math.floor(Math.random() * 100),
+          title: action.payload.title,
+          author: action.payload.author,
+        },
+      ];
     },
     removeBook: (state, action) => {
-      state.list = state.list.filter((book) => book.id !== action.payload);
+      state.list = state.list.filter((book) => book.id !== action.payload.id);
     },
   },
 });
