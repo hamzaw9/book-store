@@ -1,17 +1,21 @@
 /* eslint-disable react/prop-types */
-import { useEffect, useState } from 'react';
+import React from 'react';
 
-const Book = ({ title, author }) => {
-  const [book, setBook] = useState('');
-  useEffect(() => {
-    setBook({ title, author });
-  }, []);
-  return (
-    <div>
-      <p>{book.title}</p>
-      <p>{book.author}</p>
-      <button type="button">Delete Book</button>
-    </div>
-  );
-};
+const Book = ({ title, author, category }) => (
+  <div>
+    <p>
+      Title:
+      {title}
+    </p>
+    <p>
+      Author:
+      {author}
+    </p>
+    <p>
+      Category:
+      {category}
+    </p>
+  </div>
+);
+
 export default Book;
