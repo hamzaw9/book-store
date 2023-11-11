@@ -53,7 +53,7 @@ const AddBook = () => {
           required
         />
         <select>
-          <option>Category</option>
+          <option className="default-option">Category</option>
           <option value="option1">Action</option>
           <option value="option2">fiction</option>
           <option value="option3">Romance</option>
