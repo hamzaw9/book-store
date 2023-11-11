@@ -1,0 +1,230 @@
+li {
+  list-style-type: none;
+}
+
+nav {
+  height: 4rem;
+  padding: 1rem 6rem 1rem 6rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-content1,
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  width: 15rem;
+  height: 2.313rem;
+  margin: 0.375rem 2.938rem 0.125rem 0;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+
+.nav-link {
+  text-decoration: none;
+  width: 3.688rem;
+  height: 1rem;
+  margin: 1.125rem 2.563rem 0.688rem 0;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: var(--black-two);
+}
+
+.navbar-content2 {
+  width: 2.813rem;
+  height: 2.813rem;
+  padding: 0.875rem;
+  border: solid 1px #e8e8e8;
+}
+
+.faUser {
+  width: 1.063rem;
+  height: 1.063rem;
+  color: #0290ff;
+}
+
+.book {
+  gap: 14px;
+  height: 170px;
+  margin-top: 30px;
+  padding: 30px 70px 25px 27px;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book-title {
+  margin-top: 3px;
+  font-family: RobotoSlab, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.book-author {
+  margin: 4px 0 8px 0;
+  font-family: RobotoSlab, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.category {
+  margin: 0 39.008px 0 0;
+  opacity: 0.5;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+button {
+  cursor: pointer;
+  margin: 3px 15px 2px 0;
+  font-family: RobotoSlab, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  border: none;
+}
+
+.remove-book {
+  border-left: 0.7px solid hsla(0, 0%, 59%, 0.448);
+  border-right: 0.7px solid hsla(0, 0%, 59%, 0.448);
+  padding: 2px 10px;
+  background: none;
+}
+
+.book-progress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.percent {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.completed {
+  opacity: 0.5;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 15px;
+  color: #121212;
+}
+
+.chapter-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.current-chapter {
+  opacity: 0.5;
+  font-family: RobotoSlab, Arial, sans-serif;
+  font-size: 16px;
+  color: #121212;
+}
+
+.chapter-no {
+  font-family: RobotoSlab, Arial, sans-serif;
+  font-size: 18px;
+  color: #121212;
+}
+
+.chapter-btn {
+  width: 184px;
+  height: 33.008px;
+  padding: 7.008px 19.008px 8px 22px;
+  border-radius: 3px;
+  background-color: #0290ff;
+  color: #fff;
+}
+
+.form-container {
+  padding-bottom: 12px;
+}
+
+.form-heading {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.input-text {
+  height: 45px;
+  padding: 13px 100px 13px 17px;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+}
+
+.input-submit {
+  cursor: pointer;
+  height: 45px;
+  padding: 10px 26px;
+  border-radius: 3px;
+  background-color: #0290ff;
+  border: none;
+  color: #fff;
+}
+
+select {
+  height: 45px;
+  padding: 13px 80px 13px 17px;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+}
