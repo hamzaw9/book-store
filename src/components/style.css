@@ -102,6 +102,20 @@ nav {
   color: #4386bf;
 }
 
+button {
+  cursor: pointer;
+  margin: 3px 15px 2px 0;
+  font-family: RobotoSlab, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  border: none;
+}
+
 .book-details button {
   background: none;
 }
@@ -117,20 +131,6 @@ nav {
   line-height: normal;
   letter-spacing: normal;
   color: #121212;
-}
-
-button {
-  cursor: pointer;
-  margin: 3px 15px 2px 0;
-  font-family: RobotoSlab, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #4386bf;
-  border: none;
 }
 
 .remove-book {
