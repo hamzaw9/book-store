@@ -1,3 +1,30 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 4%;
+  background-color: #f5f6fa;
+}
+
+.center {
+  margin: 0 auto;
+  width: 95%;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.container,
+.categories-container {
+  margin: 0 6rem 0 6rem;
+  min-height: 78vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.categories-container h2 {
   text-align: center;
+  margin-top: 5rem;
 }

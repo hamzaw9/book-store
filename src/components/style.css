@@ -45,7 +45,11 @@ nav {
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.9px;
-  color: var(--black-two);
+  color: rgb(143, 143, 143);
+}
+
+.nav-link.active {
+  color: black;
 }
 
 .navbar-content2 {
@@ -98,19 +102,6 @@ nav {
   color: #4386bf;
 }
 
-.category {
-  margin: 0 39.008px 0 0;
-  opacity: 0.5;
-  font-family: Montserrat, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #121212;
-}
-
 button {
   cursor: pointer;
   margin: 3px 15px 2px 0;
@@ -123,6 +114,23 @@ button {
   letter-spacing: normal;
   color: #4386bf;
   border: none;
+}
+
+.book-details button {
+  background: none;
+}
+
+.category {
+  margin: 0 39.008px 0 0;
+  opacity: 0.5;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
 }
 
 .remove-book {
@@ -227,4 +235,5 @@ select {
   padding: 13px 80px 13px 17px;
   border-radius: 4px;
   border: 1px solid #e8e8e8;
+  color: rgb(151, 151, 151);
 }
